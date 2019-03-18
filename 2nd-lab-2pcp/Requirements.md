@@ -6,14 +6,18 @@ TM представляет из себя простое запускаемое 
 Одна БД будет содержать данные (таблицу) по бронированию билетов на самолет, вторая - бронирование отеля.
 
 **DB1: Fly Booking**
+
 | Booking ID | Client Name | Fly Number | From | To  | Date       |
 | ---------- | ----------- | ---------- | ---- | --- | ---------- |
 | XXX        | Nik         | KLM 1382   | KBP  | AMS | 01/05/2015 |
 
 
 **DB2: Hotel Booking**
+
 | Booking ID | Client Name | Hotel Name | Arrival    | Departure  |
 | ---------- | ----------- | ---------- | ---------- | ---------- |
 | YYY        | Nik         | Hilton     | 01/05/2015 | 07/05/2015 |
 
 В TM необходимо реализовать функциональность, которая заносит информацию о брони на самолет и отель для определенного клиента, используя протокол двухфазной фиксации. 
+
+[link to gdrive with full description](https://docs.google.com/document/d/1NnXkEzbACxBTLF3qifN6kxX4FZpMpdEHucmJYj7HIA0/edit)
